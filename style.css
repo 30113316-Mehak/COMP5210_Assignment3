@@ -1,0 +1,90 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Plain light background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333333;
+    padding: 20px;
+}
+
+/* Simple red header block */
+header {
+    background-color: rgb(86, 25, 70);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.header-bar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+header h1 {
+    color: white;
+    font-size: 24px;
+}
+
+/* Basic white box for the content */
+main {
+    background-color: rgb(225, 194, 217);
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
+
+/* Simple typography elements */
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    color: rgb(107, 18, 18);
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Standard plain image display */
+.scp-image-box {
+    margin: 15px 0;
+}
+
+.cards-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #000000;
+}
+
+/* Basic, standard button styling */
+.audio-btn {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Basic hover effect */
+.audio-btn:hover {
+    background-color: #eeeeee;
+}
